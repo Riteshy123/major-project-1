@@ -1,0 +1,140 @@
+body{
+    background-color:grey;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    color: gray;
+    
+}
+#neighbourinput{
+    display: flex;
+}
+.inputdiv{
+    width: 50%;
+}
+#my-hr{
+    margin-top: -15px;
+}
+#vl{
+    height: 65px;
+    width: 1px;
+    background-color: grey;
+    margin-right: 10px;
+    position: relative;
+    bottom: 8px;
+}
+.commonsettingforinput{
+    border: 0px;
+    outline: none;
+    margin-left: 30px;
+    color: rgb(116, 111, 111);
+}
+.commonsettingforlabel{
+    color: rgb(83, 79, 79);
+    font-weight: 600;
+    margin-left: 30px;
+}
+#main-div{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: white;
+}
+#head{
+    font-size: 1.3rem;
+    text-align: center;
+}
+#task{
+    border: 0px;
+    margin-top: 10px;
+    width: 80%;
+}
+.duedate{
+  margin-left: 0px;   
+}
+#addanddelete{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#add{
+    text-align: center;
+    width: 150px;
+    padding: 10px;
+    color: white;
+    background-color:rgb(70, 70, 70);
+    margin-right: 10px;
+    border: 0px;
+    border-radius: 5px;
+}
+#delete{
+    border-radius: 5px;
+    text-align: center;
+    width: 150px;
+    padding: 10px;
+    color: white;
+    background-color:red;
+    margin-left: 10px;
+    border: 0px;
+}
+.icon{
+    margin-right: 5px;
+}
+ul{
+    list-style: none;
+}
+.taskdate{
+     position: relative;
+     left: 30px;
+     top: 5px;
+}
+.taskcategory{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+    background-color:blueviolet;
+    position: relative;
+    left: 60%;
+    bottom: 40px;
+    border-radius: 2px;
+}
+.taskdescription{
+    font-size: 25px;
+}
+.dateinnumber{
+    margin-left: 6px;
+    font-size: 15px;
+    color: rgb(95, 93, 93);
+}
+.tasklist{
+    width: 100%;
+}
+.bottomlineoftasks{
+    position: relative;
+    bottom: 13px;
+    right: 41px;
+}
+.taskdelete{
+    position: relative;
+    bottom: 3px;
+}
+@media screen and (max-width: 1115px) {
+    #main-div{
+        width: 95%;
+    }
+    .taskcategory{
+        left: 65%;
+    }
+}
+@media screen and (max-width: 500px) {
+    #main-div{
+        width: 90%;
+    }
+    .taskcategory{
+        left: 50%;
+    }
+}
